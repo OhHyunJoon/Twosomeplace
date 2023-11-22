@@ -1,0 +1,60 @@
+.section .container {
+    padding: 0 48px;
+    width: 1312px; height: 541px;
+    margin: 0 auto;
+  }
+  .section .container .title {
+    font-size: 96px;
+    font-family: 'markB';
+    font-weight: 800;
+    position: relative;
+    z-index: 2;
+  } 
+  .section .container .title::after{
+    position: absolute;
+    bottom: 32px;width: 20px; height: 20px; background-color: #d50037;
+    margin-left: 16px;
+    content: '';
+  }
+  .taps button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .taps {
+    width: 320px;
+    height: 370px;
+  }
+  .taps ul{
+    display: flex; justify-content: flex-start; flex-direction: column;
+  }
+  .taps ul li {
+    margin: 28px 0;
+  }
+  .taps button p {
+    font-size: 16px;
+    float: left;
+    display: none;
+  }
+  .taps button h3 {
+    font-size: 32px;
+    float: left;
+    color: #999;
+  }
+  
+  
+.btn-wrap {
+  width: 424px; height: 56px;
+  z-index: 9;
+}
+.container .page2-sw1 {
+  height: 516px;
+  position: absolute;
+  top: 50%; transform: translateY(-50%);
+}
+.container .page2-sw1 .swiper-slide {
+  width: 100%; height: 100%;
+}
+.container .page2-sw1 .swiper-slide img {
+  width: 100%; height: 100%; object-fit: cover;
+}
