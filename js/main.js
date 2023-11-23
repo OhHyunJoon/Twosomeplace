@@ -15,7 +15,7 @@ $(document).ready(function(){
                 })
 			}else {
                 $('header .gnb-wrap a').removeClass('wow')
-                $('header #logo').css('background', "url('img/logo_white.svg')no-repeat center/cover")
+                $('header #logo').css('background', "url('../img/logo_white.svg')no-repeat center/cover")
                 $('header #logo a').css('display', 'none')
                 $('header .eng').removeClass('color')
                 $('header .login .menu a').css('display', 'none')

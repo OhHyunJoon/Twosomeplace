@@ -176,9 +176,6 @@ header .gnb-wrap .gnb-depth1 .depth2 {
 } */
 header .gnb-wrap .gnb-depth1 .depth2 > li > a{
     color: #000;
-    width: 144%;
-    display: block;
-    line-height: 2.5;
 }
 header .gnb-wrap .depth3 > li a {
     color: #707070;
